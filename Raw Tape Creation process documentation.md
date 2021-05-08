@@ -7,7 +7,7 @@
 6.	Move ‘Invoice Date’ field from end to between ‘Grace Period’ and ‘Anchor Event Date’
 7.	Move “Other Adjustments” between “Setup Fee Charged” and “Total Fees” 
 8.	Remove following unnecessary columns from “Drip All”:
-a.	Product Operations Category
+    -Product Operations Category
 b.	Expected Tenor including Grace Period
 c.	Comments for 30+ DPD RF Invoices
 d.	Comments(Other Adjustments)
@@ -20,7 +20,6 @@ j.	Weighted Average Invoice Duration
 k.	Invoice IRR (Column to be added later from metabase query) 
 
 9.	Add in following new derived columns to “Drip All”:
-
 a.	Create In Vasco? column
 i.	Between ‘Reference’ and ‘Exporter Name’ 
 ii.	Fill In Vasco? by vlookup from Vasco tracker
