@@ -1,6 +1,6 @@
 ## Drip Monthly Data Tape Preparation
 
-1.	Download  all system generated data tapes from the auto-email sent on month end. 
+1.	Download all 6 system generated data tapes from the auto-email. 
 3.	Concatenate all the tapes together to form “Drip All”. 
 4.	Move “Exporter Country” field from end of tape to between “Buyer” and “Buyer Country”.
 5.	Move “Exporter ID” and “Buyer ID” fields from end of tape to between “Buyer” and “Exporter Country”
